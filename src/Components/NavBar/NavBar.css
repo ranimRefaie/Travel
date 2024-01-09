@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.31rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-nav {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+}
+
+ul a {
+    color: #fff !important;
+    font-family: Poppins !important;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 1.62rem;
+    text-decoration: none;
+}
+
+.button-nav button {
+    width: 9.83381rem;
+    margin-right: 4.35rem;
+    padding: 0.65rem 1.43rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #DF6951;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 20px 35px rgba(223, 105, 81, 0.15);
+}
+
+.toggler-icon {
+    cursor: pointer;
+    display: none;
+    margin-right: 0.5rem;
+
+}
+
+.toggler-icon div {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0px;
+}
+
+@media screen and (max-width:992px) {
+    .toggler-icon {
+        display: block;
+    }
+
+    .content-nav {
+        position: fixed;
+        background-color: #fff;
+        flex-direction: column;
+        text-align: center;
+        top: 2rem;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: 0.5s ease;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    ul a {
+        color: black !important;
+        margin: 2rem 0;
+    }
+
+    .button-nav button {
+        margin: 0;
+    }
+}
+
+.nav-collapse {
+    transform: translateX(0%);
+}
+
+.toggle .line-1 {
+    transform: translate(-5px, 7px) rotate(-45deg);
+    background-color: #DF6951;
+}
+
+.toggle .line-2 {
+    opacity: 0;
+    background-color: #DF6951;
+}
+
+.toggle .line-3 {
+    transform: translate(-5px, -7px) rotate(45deg);
+    background-color: #DF6951;
+}
+
+.toggle {
+    text-align: start;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #DF6951;
+}

@@ -1,0 +1,70 @@
+.prom-section {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.prom-section .col-1 {
+    width: 50%;
+}
+
+.prom-section .col-2 {
+    width: 40%;
+}
+
+.prom-section p {
+    color: #2F2F2F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8125rem;
+}
+
+.prom-section button {
+    display: flex;
+    width: 10.58606rem;
+    height: 3.526rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.65294rem;
+    border-radius: 0.25rem;
+    background: #DF6951;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+
+.prom-section h5 {
+    color: #DF6951;
+    text-align: start;
+}
+
+.prom-section h1 {
+    color: #181E4B;
+    text-align: start;
+}
+
+@media screen and (max-width:992px) {
+    .prom-section {
+        flex-direction: column;
+    }
+
+    .prom-section .col-1,
+    .prom-section .col-2 {
+        width: 100%;
+    }
+
+    .prom-section h5 {
+        text-align: center;
+    }
+
+    .prom-section h1 {
+        text-align: center;
+    }
+
+    .prom-section p {
+        text-align: center;
+    }
+}
