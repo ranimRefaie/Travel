@@ -1,0 +1,90 @@
+.card-trendy {
+    width: 24.375rem;
+    margin-right: 1.75rem;
+    margin-top: 4.31rem;
+    background: #F9F9F9;
+}
+
+.section-images {
+    position: relative;
+}
+
+.section-images .img-card {
+    width: 100%;
+}
+
+.section-images .flag {
+    position: absolute;
+    z-index: 1;
+    left: 1.25rem;
+    bottom: -1rem;
+}
+
+.body-card {
+    margin-left: 1.25rem;
+}
+
+.body-card .section-1 {
+    display: flex;
+    margin-top: 1.94rem;
+}
+
+
+.body-card .section-1 .calender,
+.body-card .section-1 .num-people {
+    display: flex;
+    align-items: center;
+    margin-right: 2.35rem;
+}
+
+.body-card .section-1 .calender img,
+.body-card .section-1 .num-people img {
+    height: 1.5rem;
+}
+
+
+.body-card p {
+    color: #5E6282;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3375rem;
+    letter-spacing: 0.04375rem;
+}
+
+.section-2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-trendy .btn-card {
+    display: flex;
+    width: 8.01819rem;
+    height: 2.8125rem;
+    padding: 0rem 1.74606rem 0.449rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.49888rem;
+    border-radius: 0.25rem;
+    background: #DF6951;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (max-width:992px) {
+    .card-trendy {
+        width: 90%;
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: #181E4B;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.title h5 {
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}

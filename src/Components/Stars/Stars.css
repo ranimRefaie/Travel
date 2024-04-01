@@ -1,0 +1,15 @@
+.stars-rate {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+
+input {
+    display: none;
+}
+
+.star {
+    font-size: 20px;
+    margin-right: 5px;
+}

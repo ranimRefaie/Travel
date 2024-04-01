@@ -1,0 +1,83 @@
+.trend-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.trend-section col-1 {
+    width: 40%;
+}
+
+.trend-section col-2 {
+    width: 60%;
+}
+
+.percent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.trend-section .col-2 h5 {
+    color: #DF6951;
+    text-align: start;
+}
+
+.trend-section .col-2 h1 {
+    color: #181E4B;
+    text-align: start;
+}
+
+.trend-section .col-2 .desc {
+    width: 41.4375rem;
+    color: #2F2F2F;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9375rem;
+}
+
+.percent .col-1 {
+    margin-right: 5rem;
+}
+
+.percent .col-1 span,
+.percent .col-2 span {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.percent .col-1 p,
+.percent .col-2 p {
+    color: #181E4B;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:992px) {
+    .trend-section {
+        flex-direction: column;
+    }
+
+    .trend-section col-1,
+    .trend-section col-2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .trend-section col-2 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,37 @@
+#header {
+    position: relative;
+    height: 100vh;
+    margin-bottom: 5.25rem;
+}
+
+.home {
+    background: url('./image/header-bg.png') no-repeat;
+}
+
+.about {
+    background: url('./image/about-bg.png') no-repeat;
+}
+
+.about h2 {
+    width: 52.875rem;
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.97988rem;
+}
+
+.packages {
+    background: url('./image/packages-bg.png') no-repeat;
+}
+
+.packages h2 {
+    width: 52.875rem;
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 7.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9.97988rem;
+}

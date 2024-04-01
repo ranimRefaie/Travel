@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.image-Explore {
+    width: 100%;
+    display: flex;
+}
+
+
+@media screen and (max-width:992px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-Explore {
+        flex-direction: column;
+
+    }
+}

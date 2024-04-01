@@ -1,0 +1,82 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.cards .image {
+    position: relative;
+    margin-top: 1.25rem;
+}
+
+.cards .image .footer-img {
+    display: flex;
+    background-color: #DF6951;
+    color: #fff;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #262626;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.price .star {
+    display: flex;
+    align-items: center;
+}
+
+.cards .card {
+    width: 24.125rem;
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.38rem;
+}
+
+.cards .card .star .icon {
+    color: yellow;
+    margin-right: 0.2rem;
+}
+
+.card .body {
+    margin: 1.25rem;
+}
+
+.card .body h2 {
+    color: #181E4B;
+    font-family: Poppins;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:992px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .card {
+        width: 90%;
+    }
+}
