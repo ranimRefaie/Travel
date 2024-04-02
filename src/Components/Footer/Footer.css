@@ -1,5 +1,5 @@
 .footer {
-    background: url('./image/footer-bg.png') center center no-repeat;
+    background: url('../../assets/footer-bg.png') center center no-repeat;
     margin-top: 5.63rem;
     padding: 2rem 0;
 }

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "./image/footer-logo.svg";
+import logo from "../../assets/footer-logo.svg";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import DataFooter1 from "../Lists/DataFooter1";

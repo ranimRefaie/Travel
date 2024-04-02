@@ -5,11 +5,11 @@
 }
 
 .home {
-    background: url('./image/header-bg.png') no-repeat;
+    background: url('../../assets/header-bg.png') no-repeat;
 }
 
 .about {
-    background: url('./image/about-bg.png') no-repeat;
+    background: url('../../assets/about-bg.png') no-repeat;
 }
 
 .about h2 {
@@ -23,7 +23,7 @@
 }
 
 .packages {
-    background: url('./image/packages-bg.png') no-repeat;
+    background: url('../../assets/packages-bg.png') no-repeat;
 }
 
 .packages h2 {

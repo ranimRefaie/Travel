@@ -1,9 +1,9 @@
-import city1 from "../CardsPackg/image/city-1.png";
-import city2 from "../CardsPackg/image/city-2.png";
-import city3 from "../CardsPackg/image/city-3.png";
-import city4 from "../CardsPackg/image/city-4.png";
-import city5 from "../CardsPackg/image/city-5.png";
-import city6 from "../CardsPackg/image/city-6.png";
+import city1 from "../../assets/city-1.png";
+import city2 from "../../assets/city-2.png";
+import city3 from "../../assets/city-3.png";
+import city4 from "../../assets/city-4.png";
+import city5 from "../../assets/city-5.png";
+import city6 from "../../assets/city-6.png";
 const DataPackages = () => {
   const packagData = [
     {

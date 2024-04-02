@@ -1,6 +1,6 @@
 import Title from "../Title/Title";
 import "./TrendSection.css";
-import tourplans from "./image/TourPlans-img.png";
+import tourplans from "../../assets/TourPlans-img.png";
 
 const TrendSection = () => {
   return (

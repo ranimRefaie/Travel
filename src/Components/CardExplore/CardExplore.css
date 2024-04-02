@@ -8,12 +8,12 @@
 }
 
 .card-explore-1 {
-    background: url('./image/e1.png')no-repeat center center;
+    background: url('../../assets/e1.png')no-repeat center center;
     background-size: cover;
 }
 
 .card-explore-2 {
-    background: url('./image/e2.png')no-repeat center center;
+    background: url('../../assets/e2.png')no-repeat center center;
     background-size: cover;
     ;
 }

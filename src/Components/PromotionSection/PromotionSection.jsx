@@ -1,6 +1,6 @@
 import Title from "../Title/Title";
 import "./PromotionSection.css";
-import promotion from "./image/promotion_img.png";
+import promotion from "../../assets/promotion_img.png";
 
 const PromotionSection = () => {
   return (

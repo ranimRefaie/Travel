@@ -1,5 +1,5 @@
 .video {
-    background: url('./image/video-banner.png') no-repeat;
+    background: url('../../assets/video-banner.png') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;

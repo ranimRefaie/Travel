@@ -1,9 +1,9 @@
-import n1 from "../CardTrendy/image/n1.png";
-import n2 from "../CardTrendy/image/n2.png";
-import n3 from "../CardTrendy/image/n3.png";
-import flag1 from "../CardTrendy/image/flag-1.png";
-import flag2 from "../CardTrendy/image/flag-2.png";
-import flag3 from "../CardTrendy/image/flag-3.png";
+import n1 from "../../assets/n1.png";
+import n2 from "../../assets/n2.png";
+import n3 from "../../assets/n3.png";
+import flag1 from "../../assets/flag-1.png";
+import flag2 from "../../assets/flag-2.png";
+import flag3 from "../../assets/flag-3.png";
 import CardTrendy from "../CardTrendy/CardTrendy";
 import "../CategorySection/CategorySection.css";
 

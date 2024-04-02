@@ -1,5 +1,5 @@
 import "./VideoSection.css";
-import video from "./image/video-play.svg";
+import video from "../../assets/video-play.svg";
 
 const VideoSection = () => {
   return (

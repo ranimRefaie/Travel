@@ -1,7 +1,7 @@
 import "./CardTrendy.css";
 
-import calender from "./image/calender.png";
-import user from "./image/user-avatar.png";
+import calender from "../../assets/calender.png";
+import user from "../../assets/user-avatar.png";
 import Stars from "../Stars/Stars";
 const CardTrendy = ({ img, flag, numDay, numPepole, title, description }) => {
   return (

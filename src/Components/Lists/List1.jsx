@@ -1,8 +1,8 @@
 import CardCetegory from "../CardCetegory/CardCetegory";
-import service1 from "../CardCetegory/image/service-1.png";
-import service2 from "../CardCetegory/image/service-2.png";
-import service3 from "../CardCetegory/image/service-3.png";
-import service4 from "../CardCetegory/image/service-4.png";
+import service1 from "../../assets/service-1.png";
+import service2 from "../../assets/service-2.png";
+import service3 from "../../assets/service-3.png";
+import service4 from "../../assets/service-4.png";
 import "../CategorySection/CategorySection.css";
 
 const List1 = () => {
