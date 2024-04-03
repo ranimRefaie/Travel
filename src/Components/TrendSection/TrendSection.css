@@ -1,16 +1,16 @@
 .trend-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    gap: 1rem;
 }
 
-.trend-section col-1 {
-    width: 40%;
+.trend-section .col-1 img {
+    width: 90%;
 }
 
-.trend-section col-2 {
-    width: 60%;
+.trend-section .col-2 {
+    flex: 1;
 }
 
 .percent {
@@ -30,7 +30,6 @@
 }
 
 .trend-section .col-2 .desc {
-    width: 41.4375rem;
     color: #2F2F2F;
     font-family: Poppins;
     font-size: 1rem;
@@ -68,13 +67,7 @@
 
 @media screen and (max-width:992px) {
     .trend-section {
-        flex-direction: column;
-    }
-
-    .trend-section col-1,
-    .trend-section col-2 {
-        width: 90%;
-        margin: auto;
+        flex-direction: column-reverse;
     }
 
     .trend-section col-2 {

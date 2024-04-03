@@ -4,7 +4,7 @@ import promotion from "../../assets/promotion_img.png";
 
 const PromotionSection = () => {
   return (
-    <div className="prom-section">
+    <div className="prom-section container">
       <div className="col-1">
         <Title
           title1="PROMOTION"

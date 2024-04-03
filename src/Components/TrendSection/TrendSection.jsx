@@ -4,7 +4,7 @@ import tourplans from "../../assets/TourPlans-img.png";
 
 const TrendSection = () => {
   return (
-    <div className="trend-section">
+    <div className="trend-section container">
       <div className="col-1">
         <img src={tourplans} alt="" />
       </div>

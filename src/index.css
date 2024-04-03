@@ -21,3 +21,7 @@ code {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@500&family=Poppins&family=Roboto&display=swap');
+
+a {
+  text-decoration: none;
+}

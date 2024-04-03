@@ -2,70 +2,74 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
+import { FiAlignJustify } from "react-icons/fi";
+import { IoClose } from "react-icons/io5";
+import MobileNav from "../MobileNav/MobileNav";
 
 const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("Home");
-  const [collapse, setCollapse] = useState("content-nav");
-  const [toggleIcon, setToggleIcon] = useState("toggler-icon");
+  const [openMenu, setOpenMenu] = useState(false);
 
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  const [activeLink, setActiveLink] = useState("Home");
   const handleLinkClick = (linkName) => {
     setActiveLink(linkName);
   };
-
-  const onToggle = () => {
-    collapse === "content-nav"
-      ? setCollapse("content-nav nav-collapse")
-      : setCollapse("content-nav");
-
-    toggleIcon === "toggler-icon"
-      ? setToggleIcon("toggler-icon toggle")
-      : setToggleIcon("toggler-icon");
-  };
   return (
     <div className="navbar">
-      <div className="logo">
-        <img src={logo} alt="" />
-      </div>
-
-      <div className={collapse}>
-        <ul>
-          <Link
-            to="/"
-            className={activeLink === "Home" ? "active" : ""}
-            onClick={() => handleLinkClick("Home")}
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className={activeLink === "About" ? "active" : ""}
-            onClick={() => handleLinkClick("About")}
-          >
-            About
-          </Link>
-          <Link
-            to="/packages"
-            className={activeLink === "Packages" ? "active" : ""}
-            onClick={() => handleLinkClick("Packages")}
-          >
-            Packages
-          </Link>
-          <Link
-            className={activeLink === "Services" ? "active" : ""}
-            onClick={() => handleLinkClick("Services")}
-          >
-            Services
-          </Link>
-        </ul>
-        <div className="button-nav">
-          <button>Get in Touch</button>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+      <div className="nav-wrapper">
+        <div className="nav-content">
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
+          <ul>
+            <Link
+              to="/"
+              className={activeLink === "Home" ? "active" : ""}
+              onClick={() => handleLinkClick("Home")}
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className={activeLink === "About" ? "active" : ""}
+              onClick={() => handleLinkClick("About")}
+            >
+              About
+            </Link>
+            <Link
+              to="/packages"
+              className={activeLink === "Packages" ? "active" : ""}
+              onClick={() => handleLinkClick("Packages")}
+            >
+              Packages
+            </Link>
+            <Link
+              className={activeLink === "Services" ? "active" : ""}
+              onClick={() => handleLinkClick("Services")}
+            >
+              Services
+            </Link>
+          </ul>
+          <div className="button-nav">
+            <button>Get in Touch</button>
+          </div>
+          <button className="menu-btn" onClick={toggleMenu}>
+            <span
+              className="material-symbols-outlined"
+              style={{ fontSize: "1.8rem" }}
+            >
+              {openMenu ? (
+                <IoClose className="btn-close" />
+              ) : (
+                <FiAlignJustify />
+              )}
+            </span>
+          </button>
         </div>
-      </div>
-
-      <div className={toggleIcon} onClick={onToggle}>
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-        <div className="line-3"></div>
       </div>
     </div>
   );
